@@ -1,0 +1,524 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #18191e;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 114px;
+}
+
+.header-name {
+  text-align: center;
+  font-size: 20px;
+}
+
+.top-info {
+  background: url("images/app-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 960px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.logo {
+  background: url("images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.top-info__title-text {
+  font-size: 46px;
+  width: 535px;
+  margin-top: 85px;
+}
+
+.top-info_mobile-image {
+  display: none;
+}
+
+.top-info__download-button-wrapper {
+  text-align: center;
+  margin-top: 50px;
+  width: 240px;
+  height: 62px;
+  text-decoration: none;
+}
+
+.top-info__download-button {
+  padding: 22px 24px 19px 23px;
+  border-radius: 18px;
+  background: #177ae2;
+  border: none;
+  color: #dfdfdf;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-info__download-button:hover {
+  background: #146bc7;
+  cursor: pointer;
+}
+
+.top-info__tip-text {
+  color: #dfdfdf;
+  font-size: 16px;
+  width: 219px;
+  position: absolute;
+  right: 95px;
+  bottom: -50px;
+}
+
+.switch-tip {
+  margin-top: 145px;
+  padding: 46px 61px 57px 61px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instruction-tip {
+  margin-top: 145px;
+  padding: 46px 61px 57px 61px;
+  border-radius: 18px;
+  background: rgb(221, 134, 3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instruction-tip__text {
+  margin-top: 30px;
+  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+}
+
+.switch-tip__title {
+  font-size: 46px;
+  width: 572px;
+}
+
+.switch-tip__text {
+  color: #dfdfdf;
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.switch-tip__icons {
+  margin-left: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch-tip__plate-icon,
+.switch-tip__alumnus-icon,
+.switch-tip__violin-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 57px;
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.02);
+  border: solid 0.5px rgba(255, 255, 255, 0.1);
+  background-color: rgba(240, 240, 240, 0.35);
+  font-size: 23px;
+}
+
+.switch-tip__alumnus-icon {
+  background-image: linear-gradient(133deg, #1766de 16%, #15aced 89%);
+  margin: 0 16px;
+}
+
+.timer-tip {
+  width: 960px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer-tip__title {
+  font-size: 46px;
+  width: 480px;
+}
+
+.timer-tip__mobile-image {
+  display: none;
+}
+
+.timer-tip__text {
+  width: 306px;
+  font-size: 16px;
+  color: #dfdfdf;
+  margin-top: 14px;
+}
+
+.timer-tip__image {
+  width: 370px;
+  height: 348px;
+  background: url("images/timer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.delete-edit-tip {
+  width: 960px;
+  margin-top: 118px;
+}
+
+.delete-edit-tip__title {
+  font-size: 46px;
+}
+
+.delete-edit-tip__tips-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 45px;
+}
+
+.delete-edit-tip__first-text,
+.delete-edit-tip__second-text {
+  color: #dfdfdf;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.delete-edit-tip__first-text {
+  width: 262px;
+}
+
+.delete-edit-tip__second-text {
+  width: 225px;
+}
+
+.delete-edit-tip__image {
+  width: 245px;
+  height: 157px;
+  background: url("images/tracked.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.one-more-thing {
+  margin-top: 187px;
+  width: 960px;
+}
+
+.one-more-thing__title {
+  font-size: 46px;
+  position: relative;
+  text-align: center;
+}
+
+.one-more-thing__chip {
+  display: inline-block;
+  font-size: 27px;
+  padding: 0 14px 2px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+  background-color: #f57023;
+  transform: rotate(10deg);
+  position: absolute;
+  right: 115px;
+}
+
+.one-more-thing__image {
+  width: 960px;
+  height: 460px;
+  background: url("images/button.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 37px;
+  border-radius: 4px;
+}
+
+.one-more-thing__text {
+  width: 414px;
+  font-size: 16px;
+  color: #dfdfdf;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+.follow-us {
+  margin-top: 100px;
+  width: 960px;
+  border-top: solid 1px #575757;
+  padding-top: 7px;
+}
+
+.follow-us__text {
+  width: 905px;
+  font-size: 66px;
+}
+
+.follow-us__link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: solid 1px #808080;
+}
+
+.follow-us__link:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: solid 1px #b1b1b1;
+}
+
+.follow-us__made-in-text {
+  margin-top: 44px;
+  color: #d6d6d6;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 959px) {
+  body {
+    margin: 0;
+  }
+
+  .container {
+    width: auto;
+    margin: 0;
+    padding-bottom: 42px;
+  }
+
+  .header-name {
+    font-size: 14px;
+    margin-top: 10px;
+ 
+  }
+
+  .top-info {
+    background: none;
+    width: auto;
+    margin-top: 25px;
+  }
+
+  .top-info__title-text {
+    width: auto;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 0 14px;
+  }
+
+  .top-info_mobile-image {
+    display: block;
+    width: 100%;
+    height: 273px;
+    background: url("images/app-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+  }
+
+  .top-info__tip-text {
+    position: static;
+    width: auto;
+    padding: 0 14px;
+    margin-top: 55px;
+  }
+
+  .top-info__download-button-wrapper {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+    padding: 0 14px;
+  }
+
+  .top-info__download-button {
+    width: 100%;
+    border-radius: 9px;
+    font-size: 16px;
+    height: 46px;
+    padding: 9px 48px 7px 47px;
+  }
+
+  .switch-tip {
+    margin: 67px 14px 0 14px;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 0 31px 0;
+  }
+
+  .switch-tip__title {
+    width: auto;
+    font-size: 30px;
+    padding: 0px 40px;
+  }
+
+  .switch-tip__text {
+    margin-top: 9px;
+  }
+
+  .switch-tip__icons {
+    margin-left: 0;
+    margin-top: 31px;
+  }
+
+  .timer-tip {
+    width: auto;
+  }
+
+  .timer-tip__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timer-tip__title {
+    width: auto;
+    font-size: 30px;
+    padding: 0 14px;
+  }
+
+  .timer-tip__text {
+    width: auto;
+    padding: 0 14px;
+    margin-top: 0;
+  }
+
+  .timer-tip__image {
+    display: none;
+  }
+
+  .timer-tip__mobile-image {
+    display: block;
+    width: 368px;
+    height: 348px;
+    background: url("images/timer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -25px;
+  }
+
+  .delete-edit-tip {
+    width: auto;
+    margin-top: 84px;
+  }
+
+  .delete-edit-tip__tips-wrapper {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .delete-edit-tip__first-text,
+  .delete-edit-tip__second-text {
+    width: auto;
+    margin-top: 0;
+    padding: 0 14px;
+  }
+
+  .delete-edit-tip__first-text {
+    margin-top: 35px;
+  }
+
+  .delete-edit-tip__second-text {
+    margin-top: 15px;
+  }
+
+  .delete-edit-tip__image {
+    order: -1;
+    align-self: center;
+    background-position: center;
+    width: 270px;
+    height: 180px;
+  }
+
+  .delete-edit-tip__title {
+    font-size: 28px;
+    padding: 0 14px;
+  }
+
+  .one-more-thing {
+    width: auto;
+    margin-top: 67px;
+  }
+
+  .one-more-thing__title {
+    font-size: 30px;
+    padding: 0 14px;
+  }
+
+  .one-more-thing__chip {
+    right: 22px;
+    bottom: 15px;
+    font-size: 25px;
+  }
+
+  .one-more-thing__image {
+    width: auto;
+    height: 200px;
+  }
+
+  .one-more-thing__text {
+    width: auto;
+    margin-top: 51px;
+    padding: 0 14px;
+  }
+
+  .follow-us {
+    width: auto;
+    margin-top: 67px;
+  }
+
+  .follow-us__text {
+    width: auto;
+    font-size: 26px;
+    padding: 0 14px;
+  }
+
+  .follow-us__made-in-text {
+    margin-top: 43px;
+    font-size: 16px;
+    padding: 0 14px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 959px) {
+  .top-info__download-button {
+    width: 386px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .switch-tip__title {
+    font-size: 25px;
+  }
+
+  .timer-tip__title {
+    font-size: 28px;
+  }
+
+  .timer-tip__mobile-image {
+    width: 280px;
+    height: 265px;
+  }
+
+  .one-more-thing__title {
+    font-size: 25px;
+  }
+
+  .one-more-thing__chip {
+    font-size: 20px;
+  }
+}
