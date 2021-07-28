@@ -498,7 +498,7 @@ body {
 
 @media only screen and (min-width: 414px) and (max-width: 959px) {
   .top-info__download-button {
-    width: 386px;
+    width: 300px;
     padding-top: 10px;
   }
 }
