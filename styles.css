@@ -349,7 +349,10 @@ body {
     border-radius: 9px;
     font-size: 16px;
     height: 46px;
-    padding: 9px 48px 7px 47px;
+    padding: 7px 48px 7px 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .switch-tip {
